@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Nettoyage Climatisation DB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #00695C;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .info, .form-section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-list p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        form input, form select, form textarea, form button {
+            padding: 12px;
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        form button {
+            background-color: #00695C;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #004D40;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 40px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nettoyage Climatisation DB</h1>
+        <p>Spécialisés dans le nettoyage de climatiseurs muraux – Abitibi-Témiscamingue</p>
+    </header>
+
+    <div class="container">
+
+        <div class="info">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une entreprise locale spécialisée dans le <strong>nettoyage professionnel de climatiseurs muraux</strong>. Service rapide, efficace et de qualité partout en <strong>Abitibi-Témiscamingue</strong>.</p>
+        </div>
+
+        <div class="info">
+            <h2>Contact</h2>
+            <div class="contact-list">
+                <p><strong>Samuel Desrochers</strong> : 819 550-6994</p>
+                <p><strong>Jacob Boulanger</strong> : 819 527-6330</p>
+                <p><strong>Horaires :</strong> Lundi au Vendredi, 9h à 18h</p>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Réserver un rendez-vous</h2>
+            <form action="https://formsubmit.co/jackbou1@outlook.com" method="POST">
+                <!-- Email settings -->
+                <input type="hidden" name="_cc" value="samdesrochers26@gmail.com">
+                <input type="hidden" name="_subject" value="Nouvelle demande de rendez-vous via le site web">
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Infos client -->
+                <input type="text" name="Nom" placeholder="Votre nom complet" required>
+                <input type="tel" name="Téléphone" placeholder="Votre numéro de téléphone" required>
+                <input type="email" name="Email" placeholder="Votre adresse courriel" required>
+                <input type="text" name="Adresse" placeholder="Adresse complète du lieu de l'intervention" required>
+                <input type="date" name="Date du rendez-vous" required>
+                <input type="time" name="Heure souhaitée" required>
+
+                <!-- Questions spécifiques -->
+                <textarea name="Pièce" placeholder="Dans quelle pièce se trouve l'air climatisé ?" rows="3" required></textarea>
+                <select name="Accessible" required>
+                    <option value="" disabled selected>Est-ce que l'appareil est facilement accessible ?</option>
+                    <option value="Oui">Oui</option>
+                    <option value="Non">Non</option>
+                </select>
+                <textarea name="Matériel spécial" placeholder="Est-ce qu'il faut du matériel spécial pour y accéder ? (échelle, outils...)" rows="3" required></textarea>
+
+                <button type="submit">Envoyer la demande</button>
+            </form>
+            <p style="font-size: 0.9em; color: #666;"><em>* Un courriel sera automatiquement envoyé à : jackbou1@outlook.com et samdesrochers26@gmail.com</em></p>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Nettoyage Climatisation DB – Abitibi-Témiscamingue. Tous droits réservés.
+    </footer>
+
+</body>
+</html>
+
+
